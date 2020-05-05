@@ -42,7 +42,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
           });
 
           // disable map zoom when using scroll
-          //  map.scrollZoom.disable();
+            map.scrollZoom.disable();
         </script>
       
     </body>
