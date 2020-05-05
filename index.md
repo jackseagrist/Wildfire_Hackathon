@@ -26,7 +26,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             position: absolute;
             top: 0;
             bottom: 0;
-            width: 100;
+            width: 100%;
+            height: 100;
             }
     </style>
     <body>
@@ -41,8 +42,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             zoom: 3 
           });
 
-          // disable map zoom when using scroll
-            map.scrollZoom.disable();
         </script>
       
     </body>
