@@ -24,7 +24,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
         #map {
             position: absolute;
-            top: 100;
+            top: 0;
             bottom: 0;
             width: 100;
             }
@@ -37,12 +37,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
             var map = new mapboxgl.Map({
             container: 'map', // container id
             style: 'mapbox://styles/jkseagrist/ck9tj1z960j5h1in1zqeh4xq7', // replace this with your style URL 
-            center: [-54.643, -12.472],
+            center: [-116, 38],
             zoom: 3 
           });
 
           // disable map zoom when using scroll
-            map.scrollZoom.disable();
+          //  map.scrollZoom.disable();
         </script>
       
     </body>
