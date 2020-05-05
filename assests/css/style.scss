@@ -2,3 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+
+#logo .site-title {
+color: #ff0000;
+}
