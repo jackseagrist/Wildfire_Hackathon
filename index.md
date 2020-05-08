@@ -4,6 +4,7 @@ Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
 https://docs.mapbox.com/help/tutorials/#web-apps <-- use this for implementing map box
 and the GLJS and SDKs
 GLJS: https://docs.mapbox.com/mapbox-gl-js/overview/
+Time slider: https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/
 
 ### Sample Map
 
