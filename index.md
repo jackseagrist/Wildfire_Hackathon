@@ -21,17 +21,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
         body {
             margin: 0;
             padding: 0;}
-
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-            }
     </style>
     <body>
     
-        <iframe src'map.html'
+        <iframe src='map.html'
             width='100%' height='400px'>
 
         </iframe>
