@@ -31,20 +31,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
     </style>
     <body>
     
-        <iframe width='100%' height='400px'>
-        
-            <div id='map'></div>
-            <script>
+        <iframe src'map.html'
+            width='100%' height='400px'>
 
-                mapboxgl.accessToken = 'pk.eyJ1IjoiamtzZWFncmlzdCIsImEiOiJjazlpNHkzaG4xNWJ1M2ZvNHJuajh2ZXRhIn0.rFXMJ_jmruGL11vxChintQ';
-                var map = new mapboxgl.Map({
-                container: 'map', // container id
-                style: 'mapbox://styles/jkseagrist/ck9tj1z960j5h1in1zqeh4xq7', // replace this with your style URL 
-                center: [-116, 38],
-                zoom: 3 
-              });
-
-            </script>
         </iframe>
         
     </body>
