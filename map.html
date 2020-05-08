@@ -1,41 +1,27 @@
 <!DOCTYPE html>
-
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
-</head>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Display a map with a custom style</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
 <style>
-    body {
-        margin: 0;
-        padding: 0;}
-
-    #map {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100;
-        }
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
 </style>
+</head>
 <body>
-    <div id='map'></div>
-    <script>
-        
-        mapboxgl.accessToken = 'pk.eyJ1IjoiamtzZWFncmlzdCIsImEiOiJjazlpNHkzaG4xNWJ1M2ZvNHJuajh2ZXRhIn0.rFXMJ_jmruGL11vxChintQ';
-        var map = new mapboxgl.Map({
-        container: 'map', // container id
-        style: 'mapbox://styles/jkseagrist/ck9tj1z960j5h1in1zqeh4xq7', // replace this with your style URL 
-        center: [-116, 38],
-        zoom: 3 
-      });
-
-    </script>
-  
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiamtzZWFncmlzdCIsImEiOiJjazlpNHkzaG4xNWJ1M2ZvNHJuajh2ZXRhIn0.rFXMJ_jmruGL11vxChintQ';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/jkseagrist/ck9tj1z960j5h1in1zqeh4xq7', //hosted style id
+center: [-116, 38], // starting position
+zoom: 3 // starting zoom
+});
+</script>
+ 
 </body>
 </html>
