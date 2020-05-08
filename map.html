@@ -21,6 +21,17 @@ style: 'mapbox://styles/jkseagrist/ck9tj1z960j5h1in1zqeh4xq7', //hosted style id
 center: [-116, 38], // starting position
 zoom: 3 // starting zoom
 });
+	
+	map.on('mousemove', function(e) {
+document.getElementById('info').innerHTML =
+// e.point is the x, y coordinates of the mousemove event relative
+// to the top-left corner of the map
+JSON.stringify(e.point) +
+'<br />' +
+// e.lngLat is the longitude, latitude geographical position of the event
+JSON.stringify(e.lngLat.wrap());
+});
+	
 </script>
  
 </body>
