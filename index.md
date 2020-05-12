@@ -63,6 +63,17 @@ Alert or reference to where hospitals/nursing homes.  And also the number of hou
 What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
 
 #### Data
+GEE - Data Layers
+
+GeoMAC - historical shape files
+Link 1: Determining Fire Dates and Locating Ignition Points With Satellite Data
+Link 2: Cal Fire Frap (just perimeters)
+Link 3: USDA historical fire
+Link 4: InciWeb
+Link: Geomac <- think this is the one we used
+
+Descartes Labs - Ignitions
+
 Population Data:
 https://www.ornl.gov/news/gis-landscan-goes-public
 
