@@ -39,13 +39,32 @@ Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/s
 </html>
 
 ### Project Summary
+Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
+
+To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model.
+
+(Describe the project here)
+Fire prediction
+Create circle radius outwards for evacuation
+Traffic Layer
+Demographic layer to highlight the elderly
+Defensible space option - interactive map which allows fire department to locate defended space and send out a tweet
+Add Ons:
+Us-census layer - people contact info within zones for reverse 911 call
+Idea → maybe have a component that allows people to enter the number of resources fighting a fire to influence our model and determine if evacuation is necessary, goes back to getting rid of evacuation fatigue
+Have a time component to our layers, to show progression, and have metadata for how long the fire will take to get there
 
 
+### Tools
+
+The main tools used to develop this platform were google earth engine, google colaboratory, and Mapbox/Arc WebMap.
 
 ### References
 
-1. **Descartes Labs**
-2.
+[1]. **Descartes Labs** (https://www.descarteslabs.com/)
+[2]. **Paradise Evacuation Zones** (https://www.townofparadise.com/index.php/17-news-events/248-evacuation-zones)
+[3]. **US Forest Service Evacuation Levels** (https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprd3852749.pdf)
+[4]. 
 
 ### Thank you
 
