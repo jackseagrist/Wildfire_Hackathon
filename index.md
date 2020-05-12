@@ -83,6 +83,8 @@ The main tools used to develop this platform were google earth engine, google co
 
 [] NIST Study of emergency communications during a fire -https://www.nist.gov/el/fire-research-division-73300/wildland-urban-interface-fire-73305/nist-study-emergency
 
+[] NIST community planning resilience guide
+
 [5] ADD REFERENCES FOR GITHUB/CODE WE USED TO START OUR MODEL
 
 ### Thank you
