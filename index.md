@@ -38,6 +38,19 @@ Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/s
     </body>
 </html>
 
+### Project Summary
+
+
+
+### References
+
+1. **Descartes Labs**
+2.
+
+### Thank you
+
+We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descarte labs team, Scott Westrope, David Shew, ....
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -61,11 +74,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jackseagrist/Wildfire_Hackathon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
