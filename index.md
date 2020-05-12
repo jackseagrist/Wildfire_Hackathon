@@ -79,6 +79,10 @@ The main tools used to develop this platform were google earth engine, google co
 
 [4]. Cova, Thomas (2019): Geosimulating Hazard Warning Triggers: Geometry, Dynamics, and Timing. The University of Auckland. Conference contribution. https://doi.org/10.17608/k6.auckland.9863267.v1
 
+[] NIST Disaster Failure Studies Fires - https://www.nist.gov/topics/disaster-failure-studies/studies-hazard-types/fires
+
+[] NIST Study of emergency communications during a fire -https://www.nist.gov/el/fire-research-division-73300/wildland-urban-interface-fire-73305/nist-study-emergency
+
 [5] ADD REFERENCES FOR GITHUB/CODE WE USED TO START OUR MODEL
 
 ### Thank you
