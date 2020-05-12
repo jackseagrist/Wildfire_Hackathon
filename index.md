@@ -59,6 +59,22 @@ Have a time component to our layers, to show progression, and have metadata for 
 cell phone gps data to know who is still in the area??????? FUture work???
 
 #### Future Work
+Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
+What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
+
+#### Data
+Population Data:
+https://www.ornl.gov/news/gis-landscan-goes-public
+
+https://geoplatform.maps.arcgis.com/home/item.html?id=e431a6410145450aa56606568345765b
+Fire Hazard severity zones:
+https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/
+Fhszssn
+Fire Threat:
+https://frap.fire.ca.gov/mapping/gis-data/
+US Census Data:
+https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
+
 
 
 ### Tools
