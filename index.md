@@ -74,9 +74,14 @@ Link: Geomac <- think this is the one we used
 
 Descartes Labs - Ignitions
 
+
+NOT SURE if we used any of this
+Town Boundaries:
+Link: Cal data
+Link: Cal Fire
+Link: Who’s on First
 Population Data:
 https://www.ornl.gov/news/gis-landscan-goes-public
-
 https://geoplatform.maps.arcgis.com/home/item.html?id=e431a6410145450aa56606568345765b
 Fire Hazard severity zones:
 https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/
