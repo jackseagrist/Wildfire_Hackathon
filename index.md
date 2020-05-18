@@ -68,7 +68,8 @@ Based on notes with Scott should just focus on 1) Model perimeter prediction 2) 
 #### Model
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
 
-
+Map
+Interactive map help https://stackoverflow.com/questions/36581775/mapbox-js-marker-creation-on-click
 
 #### Future Work
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
