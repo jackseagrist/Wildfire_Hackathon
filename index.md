@@ -72,6 +72,7 @@ Map
 Interactive map help https://stackoverflow.com/questions/36581775/mapbox-js-marker-creation-on-click
 
 And think that maybe we can use leaflet.js if need more interactive?
+https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-users-to-add-points/ --> looks good
 
 #### Future Work
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
