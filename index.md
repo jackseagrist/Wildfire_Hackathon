@@ -33,6 +33,11 @@ Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/s
 
         </iframe>
         
+        <iframe src='map2.html'
+            width='100%' height='400px'>
+
+        </iframe>
+        
         <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//stanford.maps.arcgis.com/apps/Embed/index.html?webmap=30237f6e65a94ae68b677a128fd29b40&extent=-122.4695,37.3744,-121.9624,37.5997&home=true&zoom=true&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="LANDFIRE_Topography" src="//stanford.maps.arcgis.com/apps/Embed/index.html?webmap=30237f6e65a94ae68b677a128fd29b40&extent=-122.4695,37.3744,-121.9624,37.5997&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light"></iframe></div></iframe></div>
         
     </body>
