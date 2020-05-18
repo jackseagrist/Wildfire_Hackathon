@@ -65,7 +65,7 @@ Have a time component to our layers, to show progression, and have metadata for 
 
 cell phone gps data to know who is still in the area??????? FUture work???
 
-Based on notes with Scott should just focus on 1) Model perimeter prediction 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
+Based on notes with Scott should just focus on 1) Model perimeter prediction- with what the varying perimeters will look like over time 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
 
 #### Model
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
@@ -82,12 +82,13 @@ https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
 What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
 Something with IPAWS https://www.fema.gov/integrated-public-alert-warning-system ?
+Have some sort of public facing side with this as well (or just like a twitter alert)
 
 Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
 
 From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
 
-Improved modelling capabilities - talk about what we would need to add in to improve the model
+Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
 
 #### Data
 GEE - Data Layers
