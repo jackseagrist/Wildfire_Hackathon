@@ -73,26 +73,29 @@ marker.on('dragend', onDragEnd);
     .addTo(map);
 });
 	
-        self.map.on("click", function(e){
-            console.log("background click", e.lngLat);
-            var geojson = {
-                type: "FeatureCollection",
+self.map.on("click", function(e){
+	console.log("background click", e.lngLat);
+	var geojson = {
+		type: "FeatureCollection",
                 features: [{
                     type:"Feature",
                     geometry: { type: "Point", coordinates: [ e.lngLat.lng, e.lngLat.lat ]}
                 }]
-            };
-            self.map.addSource("pins", {
-                "type": "geojson",
-                "data": geojson
-            });
-            self.map.addLayer({
-                id: "pinsLayer",
-                type: "circle",
-                source: "pins", 
-                paint: {
-                    "circle-color": "red",
-                    "circle-radius": 5 
+	};
+
+self.map.addSource("pins", {
+	"type": "geojson",
+	"data": geojson
+	});
+            
+
+self.map.addLayer({
+	id: "pinsLayer",
+	type: "circle",
+	source: "pins", 
+	paint: {
+		"circle-color": "red",
+		"circle-radius": 5 
                 }
             });
         });
