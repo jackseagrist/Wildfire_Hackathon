@@ -71,6 +71,8 @@ Here are some links for some stuff I found for the model. Able to generate perim
 Map
 Interactive map help https://stackoverflow.com/questions/36581775/mapbox-js-marker-creation-on-click
 
+And think that maybe we can use leaflet.js if need more interactive?
+
 #### Future Work
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
 What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
