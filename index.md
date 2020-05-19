@@ -43,7 +43,7 @@ Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/s
     </body>
 </html>
 
-### Project Summary
+<h1> Project Summary </h1>
 Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
 
 To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model. 
