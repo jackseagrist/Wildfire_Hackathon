@@ -43,6 +43,7 @@ Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/s
     </body>
 </html>
 
+<main id="content" class="main-content" role="main">
 <h1> Project Summary </h1>
 Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
 
