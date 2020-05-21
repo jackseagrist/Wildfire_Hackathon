@@ -48,7 +48,8 @@ Our group chose to address problems related to evacuation routes. (have sources 
 
 [a relative link](tracker_start.md)
 [a relative link](map.html)
-[a relative link](/template/index.html)
+
+[Prototype](/template/index.html)
 
 To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model. 
 SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (in outreach folder)
