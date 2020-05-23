@@ -56,6 +56,53 @@ SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (
 
 thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
 
+From Nic Elmquist---------------------------------------
+Great chatting with you all today.
+
+ 
+
+Below are the things I talked about that you may find helpful…
+
+ 
+
+Our evacuation map should be available at this link…https://drive.google.com/drive/folders/1iDKAJqwAealCSuWDikNbuLUO0fvdrV8j?usp=sharing . It’s “For Internal Use” only so please don’t share, but use for your general awareness.
+
+ 
+
+The paper regarding Wildfires in California including infrastructure damage can be found here: “Long term trend in wildfire damages in California” - http://emlab.msi.ucsb.edu/sites/emlab.msi.ucsb.edu/files/wildfire-brief.pdf
+
+ 
+
+The link to the FTP site containing the Fire Progression map is here” https://ftp.nifc.gov/public/incident_specific_data/calif_s/!CALFIRE/2017_Incidents/CA-VNC-103156_Thomas/GIS/Products/20180104/ . You should be able to find similar maps for other large incidents in the same locations in their respective folders.
+
+ 
+
+Attached to the email is a screen shot showing the models we typically use to support incidents, an overview of WFDSS and the modeling support embedded within the site, and a guide to the use of Fire Behavior Fuel Models that are used in the models.
+
+ 
+
+Chuck’s contact info is below…
+
+Chuck McHugh
+
+Fire Spatial Analyst
+
+Forest Service
+
+Rocky Mountain Research Station
+
+Fire, Fuel, and Smoke Science Program
+
+5775 US Highway 10 W
+
+Missoula, MT 59808
+
+charles.mchugh@usda.gov
+
+www.firelab.org
+
+ 
+
 #### Problem
 #### Motivation?
 #### Challenges
