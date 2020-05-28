@@ -1,11 +1,11 @@
 ## Wildfire Hackathon
 Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
  
-#### Problem
-#### Motivation?
-#### Challenges
+## Problem
+### Motivation?
+### Challenges
 
-#### Project Scope
+## Project Scope
 
 (Describe the project here)
 Fire prediction
@@ -22,7 +22,7 @@ cell phone gps data to know who is still in the area??????? FUture work???
 
 Based on notes with Scott should just focus on 1) Model perimeter prediction- with what the varying perimeters will look like over time 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
 
-### Project Summary
+## Project Summary
 Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
 
 [a relative link](tracker_start.md)
@@ -79,7 +79,7 @@ charles.mchugh@usda.gov
 
 www.firelab.org
 
-#### Model
+## Model
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
 
 Flammap Process
