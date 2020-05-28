@@ -1,7 +1,9 @@
 ## Wildfire Hackathon
 Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
  
-## Problem
+## Problem Statement
+Our goal is to provide an easy to use interface for fire prediction and evacuation management for fire and sheriff's departments built on open source technology.
+
 ### Motivation?
 ### Challenges
 -describe the initial machine learning journey/approach
