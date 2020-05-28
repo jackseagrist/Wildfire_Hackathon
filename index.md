@@ -4,6 +4,7 @@ Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
 ## Problem
 ### Motivation?
 ### Challenges
+-describe the initial machine learning journey/approach
 
 ## Project Scope
 
@@ -101,6 +102,9 @@ Improved modelling capabilities - talk about what we would need to add in to imp
 ### Automation
 Making a pipeline that automatically generates prototype outputs
 
+### Licensing
+Stace mentioned a lot of places use esri, but if they don't have a liscense then wouldn't be able to accesss. Think about Mapbox as an alternative
+
 ### Dissemination to the Public
 Right now the focus on our tool has been to help fire and sheriff's departments with their evacuation management.
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
@@ -113,16 +117,15 @@ Map - explore mapbox features with database for users to interact with the map o
 ### Redundancy
 From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
 
-
 ## Data
 1. National Interagency Fire Center (NIFC) FTP server[] - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
 
 2. Environmental Systems Research Institute (ESRI) data layers - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
 
 ## Tools
+1. ArcGIS Web Map -
 
-Flammap, Arc
-The main tools used to develop this platform were google earth engine, google colaboratory, and Mapbox/Arc WebMap.
+2. FlamMap 6 - 
 
 ## References
 
