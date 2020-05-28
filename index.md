@@ -1,46 +1,12 @@
 ## Wildfire Hackathon
 Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
 
-### Sample Map
-
-
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
-        <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
-    </head>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;}
-    </style>
-    <body>
-    
-        <iframe src='map.html'
-            width='100%' height='400px'>
-
-        </iframe>
-        
-        <iframe src='cartovl.html'
-            width='100%' height='400px'>
-
-        </iframe>
-        
-        <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//stanford.maps.arcgis.com/apps/Embed/index.html?webmap=30237f6e65a94ae68b677a128fd29b40&extent=-123.5631,37.7588,-121.3054,38.7637&zoom=true&scale=true&search=true&searchextent=true&basemap_gallery=true&disable_scroll=true&theme=light" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Wildfire_Tracker" src="//stanford.maps.arcgis.com/apps/Embed/index.html?webmap=30237f6e65a94ae68b677a128fd29b40&extent=-123.5631,37.7588,-121.3054,38.7637&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&basemap_gallery=true&disable_scroll=true&theme=light"></iframe></div>
-        
-    </body>
-</html>
-
 ### Project Summary
 Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
 
 [a relative link](tracker_start.md)
 [a relative link](map.html)
+[a relative link](map3.html)
 
 [Prototype](/template/index2.html)
 
