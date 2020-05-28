@@ -1,5 +1,26 @@
 ## Wildfire Hackathon
 Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
+ 
+#### Problem
+#### Motivation?
+#### Challenges
+
+#### Project Scope
+
+(Describe the project here)
+Fire prediction
+Create circle radius outwards for evacuation
+Traffic Layer
+Demographic layer to highlight the elderly
+Defensible space option - interactive map which allows fire department to locate defended space and send out a tweet
+Add Ons:
+Us-census layer - people contact info within zones for reverse 911 call
+Idea → maybe have a component that allows people to enter the number of resources fighting a fire to influence our model and determine if evacuation is necessary, goes back to getting rid of evacuation fatigue
+Have a time component to our layers, to show progression, and have metadata for how long the fire will take to get there
+
+cell phone gps data to know who is still in the area??????? FUture work???
+
+Based on notes with Scott should just focus on 1) Model perimeter prediction- with what the varying perimeters will look like over time 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
 
 ### Project Summary
 Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
@@ -58,29 +79,6 @@ charles.mchugh@usda.gov
 
 www.firelab.org
 
- 
-
-#### Problem
-#### Motivation?
-#### Challenges
-
-#### Project Scope
-
-(Describe the project here)
-Fire prediction
-Create circle radius outwards for evacuation
-Traffic Layer
-Demographic layer to highlight the elderly
-Defensible space option - interactive map which allows fire department to locate defended space and send out a tweet
-Add Ons:
-Us-census layer - people contact info within zones for reverse 911 call
-Idea → maybe have a component that allows people to enter the number of resources fighting a fire to influence our model and determine if evacuation is necessary, goes back to getting rid of evacuation fatigue
-Have a time component to our layers, to show progression, and have metadata for how long the fire will take to get there
-
-cell phone gps data to know who is still in the area??????? FUture work???
-
-Based on notes with Scott should just focus on 1) Model perimeter prediction- with what the varying perimeters will look like over time 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
-
 #### Model
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
 
@@ -93,6 +91,15 @@ And think that maybe we can use leaflet.js if need more interactive?
 https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-users-to-add-points/ --> looks good
 
 #### Future Work
+The following section describes the work needed in the future to continue the 
+
+##### Model
+Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
+
+Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
+
+##### Dissemination to the Public
+Right now the focus on our tool has been to help fire and sheriff's departments with their evacuation management.
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
 What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
 Something with IPAWS https://www.fema.gov/integrated-public-alert-warning-system ?
@@ -100,11 +107,9 @@ Have some sort of public facing side with this as well (or just like a twitter a
 
 Map - explore mapbox features with database for users to interact with the map on the fly https://www.mapbox.com/videos/how-to/deploy-a-collaborative-map-with-quick-launch/ https://www.mapbox.com/solutions/quick-launch
 
-Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
-
+##### Redundancy
 From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
 
-Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
 
 #### Data
 GEE - Data Layers
@@ -139,6 +144,7 @@ https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
 
 ### Tools
 
+Flammap, Arc
 The main tools used to develop this platform were google earth engine, google colaboratory, and Mapbox/Arc WebMap.
 
 ### References
@@ -169,4 +175,4 @@ The main tools used to develop this platform were google earth engine, google co
 
 ### Thank you
 
-We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descarte labs team, Scott Westrope, David Shew, Nic Elmquist ....
+We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes labs team, Scott Westrope, David Shew, Nic Elmquist ....
