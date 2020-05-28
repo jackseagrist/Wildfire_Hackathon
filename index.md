@@ -123,7 +123,7 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 2. Environmental Systems Research Institute (ESRI) data layers - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
 
 ## Tools
-1. ArcGIS Web Map -
+1. ArcGIS Web Map - ArcGIS Web Maps was used to prototype the final map output for the fire evacuation management tool. 
 
 2. FlamMap 6 - 
 
