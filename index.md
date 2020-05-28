@@ -98,6 +98,9 @@ Machine Learning - Don't have the time scale data that we need to make model rea
 
 Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
 
+### Automation
+Making a pipeline that automatically generates prototype outputs
+
 ### Dissemination to the Public
 Right now the focus on our tool has been to help fire and sheriff's departments with their evacuation management.
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
@@ -112,35 +115,9 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 
 
 ## Data
-GEE - Data Layers
+1. National Interagency Fire Center (NIFC) FTP server[] - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
 
-GeoMAC - historical shape files
-Link 1: Determining Fire Dates and Locating Ignition Points With Satellite Data
-Link 2: Cal Fire Frap (just perimeters)
-Link 3: USDA historical fire
-Link 4: InciWeb
-Link: Geomac <- think this is the one we used
-
-Descartes Labs - Ignitions
-
-
-NOT SURE if we used any of this
-Town Boundaries:
-Link: Cal data
-Link: Cal Fire
-Link: Who’s on First
-Population Data:
-https://www.ornl.gov/news/gis-landscan-goes-public
-https://geoplatform.maps.arcgis.com/home/item.html?id=e431a6410145450aa56606568345765b
-Fire Hazard severity zones:
-https://osfm.fire.ca.gov/divisions/wildfire-planning-engineering/wildland-hazards-building-codes/fire-hazard-severity-zones-maps/
-Fhszssn
-Fire Threat:
-https://frap.fire.ca.gov/mapping/gis-data/
-US Census Data:
-https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
-
-
+2. Environmental Systems Research Institute (ESRI) data layers - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
 
 ## Tools
 
@@ -172,6 +149,10 @@ The main tools used to develop this platform were google earth engine, google co
 [] NIST community planning resilience guide
 
 [5] ADD REFERENCES FOR GITHUB/CODE WE USED TO START OUR MODEL
+
+[] https://www.nifc.gov/
+
+[] https://www.esri.com/en-us/home
 
 ## Thank you
 
