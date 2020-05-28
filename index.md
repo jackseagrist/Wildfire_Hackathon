@@ -1,13 +1,6 @@
 ## Wildfire Hackathon
 Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
 
-https://docs.mapbox.com/help/tutorials/#web-apps <-- use this for implementing map box
-and the GLJS and SDKs
-GLJS: https://docs.mapbox.com/mapbox-gl-js/overview/
-Time slider: https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/
-
-Think about using Arc Webmaps as well: https://doc.arcgis.com/en/arcgis-online/share-maps/embed-maps-groups.htm
-
 ### Sample Map
 
 
