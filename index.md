@@ -90,15 +90,15 @@ Interactive map help https://stackoverflow.com/questions/36581775/mapbox-js-mark
 And think that maybe we can use leaflet.js if need more interactive?
 https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-users-to-add-points/ --> looks good
 
-#### Future Work
+## Future Work
 The following section describes the work needed in the future to continue the 
 
-##### Model
+### Model
 Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
 
 Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
 
-##### Dissemination to the Public
+### Dissemination to the Public
 Right now the focus on our tool has been to help fire and sheriff's departments with their evacuation management.
 Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
 What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
@@ -107,11 +107,11 @@ Have some sort of public facing side with this as well (or just like a twitter a
 
 Map - explore mapbox features with database for users to interact with the map on the fly https://www.mapbox.com/videos/how-to/deploy-a-collaborative-map-with-quick-launch/ https://www.mapbox.com/solutions/quick-launch
 
-##### Redundancy
+### Redundancy
 From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
 
 
-#### Data
+## Data
 GEE - Data Layers
 
 GeoMAC - historical shape files
@@ -142,12 +142,12 @@ https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.html
 
 
 
-### Tools
+## Tools
 
 Flammap, Arc
 The main tools used to develop this platform were google earth engine, google colaboratory, and Mapbox/Arc WebMap.
 
-### References
+## References
 
 [1]. **Descartes Labs** (https://www.descarteslabs.com/)
 
@@ -173,6 +173,6 @@ The main tools used to develop this platform were google earth engine, google co
 
 [5] ADD REFERENCES FOR GITHUB/CODE WE USED TO START OUR MODEL
 
-### Thank you
+## Thank you
 
 We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes labs team, Scott Westrope, David Shew, Nic Elmquist ....
