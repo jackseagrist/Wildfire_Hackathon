@@ -5,6 +5,7 @@ Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
 ### Motivation?
 ### Challenges
 -describe the initial machine learning journey/approach
+-getting a farsite/flammap model to work on a windows system
 
 ## Project Scope
 
@@ -71,7 +72,7 @@ And think that maybe we can use leaflet.js if need more interactive?
 https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-users-to-add-points/ --> looks good
 
 ## Future Work
-The following section describes the work needed in the future to continue the 
+The following sections describe the work needed to take this project from a concept to a viable product.
 
 ### Model
 Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
@@ -99,12 +100,12 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 ## Data
 1. National Interagency Fire Center (NIFC) FTP server[] - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
 
-2. Environmental Systems Research Institute (ESRI) data layers - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
+2. Environmental Systems Research Institute (ESRI) data layers [] - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
 
 ## Tools
 1. ArcGIS Web Map - ArcGIS Web Maps was used to prototype the final map output for the fire evacuation management tool. 
 
-2. FlamMap 6 - 
+2. FlamMap 6 - Desktop application that is used to simulate fire behavior. Includes FARSITE (Finney 1998, 2004) and FlamMap BASIC (Finney 2006), Minimum Travel Time (MTT, Finney 2002, 2006), Treatment Optimization Model (Finney 2001, 2006, 2007), and Conditional Burn Probability (Finney 2005, 2006).
 
 ## References
 
@@ -138,4 +139,4 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 
 ## Thank you
 
-We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes labs team, Scott Westrope, David Shew, Nic Elmquist ....
+We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes labs team, Scott Westrope, David Shew, Nic Elmquist, and all of the other hackathon teams!
