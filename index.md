@@ -60,16 +60,18 @@ SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (
 
 thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
 
-## Model
+### Model
+Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across a few model
+
+FlamMap 6 . FlamMap 6 description. how to use it. How we used it in our situation
+
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
 
 Flammap Process
 1) download lcp data from Landfire 2) get fuel moisture conditions from https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103 or https://firesafesanmateo.org/resources/live-fuel-moisture 3) find wind data from that day to use with wind ninja 4) foliar moisture? 5) try to find wtr and wnd files https://www.wunderground.com/history/weekly/us/ca/santa-rosa/KSTS/date/2018-10-25 https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/santa-rosa_united-states-of-america_5393287
 
-Map
-Interactive map help https://stackoverflow.com/questions/36581775/mapbox-js-marker-creation-on-click
-And think that maybe we can use leaflet.js if need more interactive?
-https://paulcrickard.wordpress.com/2012/06/29/leaflet-js-interactivity-ii-allow-users-to-add-points/ --> looks good
+### Map
+The second critical component to our evacuation management tool is the final display of the predicted outputs. We investigated using both Mapbox and ArcGIS Webmaps. Went with ArcGIS Webmaps
 
 ## Future Work
 The following sections describe the work needed to take this project from a concept to a viable product.
