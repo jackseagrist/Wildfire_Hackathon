@@ -46,7 +46,7 @@ The link to the FTP site containing the Fire Progression map is here” https://
 
 Attached to the email is a screen shot showing the models we typically use to support incidents, an overview of WFDSS and the modeling support embedded within the site, and a guide to the use of Fire Behavior Fuel Models that are used in the models.
 
-## User Experience
+## Prototype
 Describe what we envision the user experience to be, ending with the link to the prototype.
 
 [a relative link](tracker_start.md)
