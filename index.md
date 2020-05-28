@@ -23,20 +23,6 @@ cell phone gps data to know who is still in the area??????? FUture work???
 
 Based on notes with Scott should just focus on 1) Model perimeter prediction- with what the varying perimeters will look like over time 2) estimate evacuation overlay 3) traffic data 4) hospitals, nursing homes, and school locations 5) ability to add in community refuge areas if fire/sheriff dept need to add in
 
-## Project Summary
-Our group chose to address problems related to evacuation routes. (have sources here about evacuation routes currently and evacuation plans, research papers). 
-
-[a relative link](tracker_start.md)
-[a relative link](map.html)
-[a relative link](map3.html)
-
-[Prototype](/template/index2.html)
-
-To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model. 
-SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (in outreach folder)
-
-thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
-
 From Nic Elmquist---------------------------------------
 Great chatting with you all today.
 
@@ -49,7 +35,6 @@ No requirements for fire departments to have these analysts
 15 federal incident management teams, 5 state incident management teams
 Each one has one of the fire behavior analyst.
  
-
 Below are the things I talked about that you may find helpful…
 
 Our evacuation map should be available at this link…https://drive.google.com/drive/folders/1iDKAJqwAealCSuWDikNbuLUO0fvdrV8j?usp=sharing . It’s “For Internal Use” only so please don’t share, but use for your general awareness.
@@ -60,25 +45,19 @@ The link to the FTP site containing the Fire Progression map is here” https://
 
 Attached to the email is a screen shot showing the models we typically use to support incidents, an overview of WFDSS and the modeling support embedded within the site, and a guide to the use of Fire Behavior Fuel Models that are used in the models.
 
-Chuck’s contact info is below…
+## User Experience
+Describe what we envision the user experience to be, ending with the link to the prototype.
 
-Chuck McHugh
+[a relative link](tracker_start.md)
+[a relative link](map.html)
+[a relative link](map3.html)
 
-Fire Spatial Analyst
+[Prototype](/template/index2.html)
 
-Forest Service
+To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model. 
+SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (in outreach folder)
 
-Rocky Mountain Research Station
-
-Fire, Fuel, and Smoke Science Program
-
-5775 US Highway 10 W
-
-Missoula, MT 59808
-
-charles.mchugh@usda.gov
-
-www.firelab.org
+thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
 
 ## Model
 Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
