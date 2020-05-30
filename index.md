@@ -7,7 +7,11 @@ Wildfires pose a significant risk to human life and society, causing an estimate
 
 ### Motivation
 
-One vital aspect of fire loss prevention is evacuation procedures, in particular how fire and police authorities decide and implement effective yet necessary evacuations in the face of imminent danger.  Aggressive fires, jammed roads, and panicked evacuees can complicate well thought out evacuation procedures potentially having fatal results. Even when a town has preprepared evacuation zone, such as in Paradise, dissemination of information and response in a time sensitive situation can still be extremely difficult (3). Officials attempted to alert the public through the national Integrated Public Alert and Warning System (IPAWS) during the Camp fire but encountered technical difficulties (4).
+One vital aspect of fire loss prevention is evacuation procedures, in particular how fire and police authorities decide and implement effective yet necessary evacuations in the face of imminent danger.  Aggressive fires, jammed roads, and panicked evacuees can complicate well thought out evacuation procedures potentially having fatal results.
+
+Even when a town has preprepared evacuation zone, such as in Paradise, dissemination of information and response in a time sensitive situation can still be extremely difficult (3). Officials attempted to alert the public through the national Integrated Public Alert and Warning System (IPAWS) during the Camp fire but encountered technical difficulties, highlighting the need for improved communication solutions during disaster events (4).
+
+In addition, many mid size and small fire departments still rely on experience and non digital tools for evacuation. With the increasing availability of open source data and techonology, there is a real potential to create tools that can make the first responders' decision making process easier during disasters.
 
 Our project aims to create an easy to use, government facing, data based tool that assists fire departments in real time evacuation scenarios.  Our tool utilizes live traffic and critical facilities data to provide a blend of need to know data to decision makers in high stake situations.  High human and economic loss fires such as the Camp Fire in Paradise, CA serve as a motivation to help provide information for safe evacuation routes or areas to shelter to minimize wildfire loss. 
 
@@ -15,36 +19,27 @@ Our project aims to create an easy to use, government facing, data based tool th
 
 Creating a data based live platform has several challenges, most surrounding availability of useful data and its timely implementation.  However, clever integration of online softwares allows a variety of critical variables to be available simultaneously while constantly updating.  Data and technological approaches that fight natural disasters are still nascent but are rapidly evolving, providing a promising future for our platform.
 
-## Project Scope
-
-The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential product. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had, there are 5 c
-
--Basemap - 
--Fire Prediction - showing over time, ability for 
--Evacuation Overlay- 
--Traffic Information - 
--Key Infrastructure - Hospitals, Nursing Homes, and Schools
--Addding Defended Space - 
-
-To address these problems, our group developed a prototype tool that could be used by fire departments, sheriff departments, and citizens as a central repository of real time fire information to assist with evacuation. We have developed a prototype for a real time fire prediction model that uses the estimated fire path to provide an output of which parts of the jurisdiction should be under which evacuation order: Level 1 Alert, Level 2 Warning, Level 3 Order [1]. Our prototype was developed focusing on California, using historical California wildfire data as inputs to train the model. 
-SEE UPDATED PDFS from Scott - now just two levels and a shelter in place order (in outreach folder)
-
 thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
 
-### Model
+## Project Scope
 
-Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across a few model
+The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential product. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had with stakeholders, there are six key components that we've included in the prototype which are described below.
 
-FlamMap 6 . FlamMap 6 description. how to use it. How we used it in our situation
+1. Basemap: The base layer on which all of our data is added. All of the information generated from the fire prediction models and subsequent evacuation zone estimates will be added on top of this layer. We investigated using both Mapbox and ArcGIS Webmaps and ultimately went with ArcGIS Webmaps for this project for its ease of use and additional data layers available.
 
-Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
+2. Fire Perimeter Prediction: Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across FlamMap 6 and found that it suited our needs. FlamMap incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given land, weather, fuel, and time inputs.
 
-Flammap Process
-1) download lcp data from Landfire 2) get fuel moisture conditions from https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103 or https://firesafesanmateo.org/resources/live-fuel-moisture 3) find wind data from that day to use with wind ninja 4) foliar moisture? 5) try to find wtr and wnd files https://www.wunderground.com/history/weekly/us/ca/santa-rosa/KSTS/date/2018-10-25 https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/santa-rosa_united-states-of-america_5393287
+3. Evacuation Overlay: 
 
-### Map
+      •Evacuation Order: Immediate threat to life. This is a lawful order to leave now. The area is lawfully closed to public access.
+      •Evacuation Warning: Potential threat to life and/or property. Those who require additional time to evacuate, and those with pets        and livestock should leave now. 
+      
+4. Traffic Information:
 
-The second critical component to our evacuation management tool is the final display of the predicted outputs. We investigated using both Mapbox and ArcGIS Webmaps. Went with ArcGIS Webmaps
+5. Key Infrastructure: Hospitals, Nursing Homes, and Schools
+
+6. Addding Defended Space:
+
 
 ## Prototype
 
@@ -70,6 +65,14 @@ SB example - if you use the shrub model for fuel, the fire never moves as fast a
 Need the analyst to explain the outputs
 
 Attached to the email is a screen shot showing the models we typically use to support incidents, an overview of WFDSS and the modeling support embedded within the site, and a guide to the use of Fire Behavior Fuel Models that are used in the models.
+Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across a few model
+
+FlamMap 6 . FlamMap 6 description. how to use it. How we used it in our situation
+
+Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
+
+Flammap Process
+1) download lcp data from Landfire 2) get fuel moisture conditions from https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103 or https://firesafesanmateo.org/resources/live-fuel-moisture 3) find wind data from that day to use with wind ninja 4) foliar moisture? 5) try to find wtr and wnd files https://www.wunderground.com/history/weekly/us/ca/santa-rosa/KSTS/date/2018-10-25 https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/santa-rosa_united-states-of-america_5393287
 
 ### Automation
 
@@ -95,9 +98,9 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 
 ## Data
 
-1. National Interagency Fire Center (NIFC) FTP server[] - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
+1. National Interagency Fire Center (NIFC) FTP server(5) - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
 
-2. Environmental Systems Research Institute (ESRI) data layers [] - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
+2. Environmental Systems Research Institute (ESRI) data layers (6) - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
 
 ## Tools
 
@@ -115,39 +118,12 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 
 [4] Zoe Todd Sydney Trattner Jane McMullen, "Ahead of Camp Fire Anniversary, New Details Emerge of Troubled Evacuation (https://www.pbs.org/wgbh/frontline/article/camp-fire-anniversary-new-details-troubled-evacuation/).
 
+[5] https://www.nifc.gov/
 
+[6] https://www.esri.com/en-us/home
 
-
-[1]. **Descartes Labs** (https://www.descarteslabs.com/)
-
-[2]. Google earth engine
-
-
-
-  && Paradise Vulnerable Populations - https://www.nfpa.org/News-and-Research/Publications-and-media/NFPA-Journal/2019/January-February-2019/News-and-Analysis/Dispatches
-
-[3]. Evacuation Behavior Literature (https://rgs-ibg.onlinelibrary.wiley.com/doi/pdf/10.1002/geo2.51)
-
-[]. California Most Vulnerable Communities Map - (https://www.directrelief.org/2019/07/which-california-communities-are-most-vulnerable-to-wildfires/) -- might be able to incorporate that map with our map if we do arcgis webmaps
-
-[3]. **US Forest Service Evacuation Levels** (https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprd3852749.pdf)
-
-[4]. Cova, Thomas (2019): Geosimulating Hazard Warning Triggers: Geometry, Dynamics, and Timing. The University of Auckland. Conference contribution. https://doi.org/10.17608/k6.auckland.9863267.v1
-
-[] NIST Disaster Failure Studies Fires - https://www.nist.gov/topics/disaster-failure-studies/studies-hazard-types/fires
-
-[] NIST Study of emergency communications during a fire -https://www.nist.gov/el/fire-research-division-73300/wildland-urban-interface-fire-73305/nist-study-emergency
-
-[] NIST community planning resilience guide
-
-[5] ADD REFERENCES FOR GITHUB/CODE WE USED TO START OUR MODEL
-
-[] https://www.nifc.gov/
-
-[] https://www.esri.com/en-us/home
-
-
+[7] Descartes Labs(https://www.descarteslabs.com/)
 
 ## Thank you
 
-We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes labs team, Scott Westrope, David Shew, Nic Elmquist, and all of the other hackathon teams!
+We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes Labs team, Scott Westrope, David Shew, Nic Elmquist, and all of the other hackathon teams!
