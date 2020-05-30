@@ -25,20 +25,21 @@ thinks there needs to be a happy medium to get people out of the way and evacuat
 
 The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential product. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had with stakeholders, there are six key components that we've included in the prototype which are described below.
 
-1. Basemap: The base layer on which all of our data is added. All of the information generated from the fire prediction models and subsequent evacuation zone estimates will be added on top of this layer. We investigated using both Mapbox and ArcGIS Webmaps and ultimately went with ArcGIS Webmaps for this project for its ease of use and additional data layers available.
+1. **Basemap**: The base layer on which all of our data is added. All of the information generated from the fire prediction models and subsequent evacuation level estimates will be added on top of this layer. We investigated using both Mapbox and ArcGIS Webmaps and ultimately went with ArcGIS Webmaps for this project for its ease of use and additional data layers available.
 
-2. Fire Perimeter Prediction: Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across FlamMap 6 and found that it suited our needs. FlamMap incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given land, weather, fuel, and time inputs.
+2. **Fire Perimeter Prediction**: Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across FlamMap 6 and found that it suited our needs. FlamMap incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given land, weather, fuel, and time inputs.
 
-3. Evacuation Overlay: 
+3. **Evacuation Overlay**: Following the California guidelines, our tool will provide estimates for the evacuation level in the areas surrounding the predicted fire perimeter. We understand that enforcing these different orders are up to the discrection of the officials in the city and therefore these layers simply serve as a reference for the decision makers. The California evacuation levels are:
 
       •Evacuation Order: Immediate threat to life. This is a lawful order to leave now. The area is lawfully closed to public access.
+      
       •Evacuation Warning: Potential threat to life and/or property. Those who require additional time to evacuate, and those with pets        and livestock should leave now. 
       
-4. Traffic Information:
+4. **Traffic Information**: Traffic is a key 
 
-5. Key Infrastructure: Hospitals, Nursing Homes, and Schools
+5. **Key Infrastructure**: Hospitals, Nursing Homes, and Schools
 
-6. Addding Defended Space:
+6. **Addding Defended Space**:
 
 
 ## Prototype
