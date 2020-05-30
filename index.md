@@ -21,13 +21,17 @@ Creating a data based live platform has several challenges, most surrounding ava
 
 thinks there needs to be a happy medium to get people out of the way and evacuated, but not too early of a full evacuation (leads to evacuation fatigue) or no evacuation at all. Balance (no evac --- happy medium --- full early evac) from Scott
 
+cost for mid to small size
+
+technology barrier - old ways
+
 ## Project Scope
 
 The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential product. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had with stakeholders, there are six key components that we've included in the prototype which are described below.
 
 1. **Basemap**: The base layer on which all of our data is added. All of the information generated from the fire prediction models and subsequent evacuation level estimates will be added on top of this layer. We investigated using both Mapbox and ArcGIS Webmaps and ultimately went with ArcGIS Webmaps for this project for its ease of use and additional data layers available.
 
-2. **Fire Perimeter Prediction**: Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across FlamMap 6 and found that it suited our needs. FlamMap incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given land, weather, fuel, and time inputs.
+2. **Fire Perimeter Prediction**: Our product will provide an estimate for the fire perimeter over a specified duration of time, given the current input conditions. We used FlamMap 6, which incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given land, weather, fuel, and time inputs.
 
 3. **Evacuation Overlay**: Following the California guidelines, our tool will provide estimates for the evacuation level in the areas surrounding the predicted fire perimeter. We understand that enforcing these different orders are up to the discrection of the officials in the city and therefore these layers simply serve as a reference for the decision makers. The California evacuation levels are:
 
@@ -35,11 +39,11 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
       
       •Evacuation Warning: Potential threat to life and/or property. Those who require additional time to evacuate, and those with pets        and livestock should leave now. 
       
-4. **Traffic Information**: Traffic is a key 
+4. **Traffic Information**: Our tool will provide the latest traffic information for the area. Having the current traffic data for an area is crucial for officials to effectively respond to a disaster situation. Knowing the traffic flow out of a city jurisdiction helps with evacuating citizens, but it can also be used to identify key access points for delivering resources to fight the fire.
 
-5. **Key Infrastructure**: Hospitals, Nursing Homes, and Schools
+5. **Key Infrastructure**: Our tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
 
-6. **Addding Defended Space**:
+6. **Addding Defended Space**: Our tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
 
 
 ## Prototype
@@ -57,45 +61,23 @@ The following sections describe the work needed to take this project from a conc
 
 ### Model
 
-Machine Learning - Don't have the time scale data that we need to make model really work. We would need for a single fire the shapefile perimeters at smaller time steps, not just the final perimeter. Then we would have to add in the temporal data somehow. Potentially by making raster values for each datastack where the pixel value is based on the time from ignition
-
-Improved modelling capabilities - talk about what we would need to add in to improve the model. Model predictability should include historical data since fires tend to follow the same path
-
-Models really need analysts right now to tweak parameters and make the models accurate, because even if you put in what you think are the parameters that represent the region
-SB example - if you use the shrub model for fuel, the fire never moves as fast as it does in real life. Need to select grass even though it is shrubs over there. Only would know that with experience in that area
-Need the analyst to explain the outputs
-
-Attached to the email is a screen shot showing the models we typically use to support incidents, an overview of WFDSS and the modeling support embedded within the site, and a guide to the use of Fire Behavior Fuel Models that are used in the models.
-Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype. We came across a few model
-
-FlamMap 6 . FlamMap 6 description. how to use it. How we used it in our situation
-
-Here are some links for some stuff I found for the model. Able to generate perimeters with Flammap 6 software. But someone made a set of python scripts for generating perimeter to webmap, could maybe use that. Also could maybe use outputs from flammap to train AI model. This pdf lists out a lot of the other perimeter prediction softwares as well (Farsite, Nexus, Wi-fire, ArcFuels) http://unigis.sbg.ac.at/files_en/Mastertheses/Full/104195.pdf
-
-Flammap Process
-1) download lcp data from Landfire 2) get fuel moisture conditions from https://www.wfas.net/index.php/national-fuel-moisture-database-moisture-drought-103 or https://firesafesanmateo.org/resources/live-fuel-moisture 3) find wind data from that day to use with wind ninja 4) foliar moisture? 5) try to find wtr and wnd files https://www.wunderground.com/history/weekly/us/ca/santa-rosa/KSTS/date/2018-10-25 https://www.meteoblue.com/en/weather/historyclimate/climatemodelled/santa-rosa_united-states-of-america_5393287
+Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype, deciding on FlamMap. Currently we generate outputs from FlamMap using the windows software on our personal computers. If this product were to move forward, we would need to develop a way to host the model on a server such that users could run computations from their web browser.
 
 ### Automation
 
-Making a pipeline that automatically generates prototype outputs
+As described above, our current prototype is a static wireframe of the potential tool. To create an operational tool, we would need to develop the infrastructure between the input data, model, and final output layers. This would allow us to take our proof of concept from a static wireframe to a useable web based tool.
 
 ### Licensing
 
-Stace mentioned a lot of places use esri, but if they don't have a liscense then wouldn't be able to accesss. Think about Mapbox as an alternative
+Part of the goal of our project is to use as much open source information and software as possible to make the product easily accessible to the deparments with limited resources. Our current prototype is based on the ESRI software platform, which requires licenses. If we were to continue to move forward with development, we would want to investigate what the current level of access to ESRI software is at the medium to small size departments. In addition, we would continue to look at alternative platforms such as Mapbox for developing the tool.
 
 ### Dissemination to the Public
 
-Right now the focus on our tool has been to help fire and sheriff's departments with their evacuation management.
-Alert or reference to where hospitals/nursing homes.  And also the number of houses/ population density. Also the time of day will cause different types of evacuation (ask Scott)
-What to do for people without cars (we typically assume everyone is able, has a car, speaks english) - research (bodega bay santa rosa). Look into grassroots organizations for illegal immigrant and disabled populations help with evacuation (think about demographic layers)
-Something with IPAWS https://www.fema.gov/integrated-public-alert-warning-system ?
-Have some sort of public facing side with this as well (or just like a twitter alert)
-
-Map - explore mapbox features with database for users to interact with the map on the fly https://www.mapbox.com/videos/how-to/deploy-a-collaborative-map-with-quick-launch/ https://www.mapbox.com/solutions/quick-launch
+Our current focus of the tool has been to help fire and sheriff's departments with their evacuation management. However, as mentioned earlier a key problem also lies with getting information to the public. This is outside the current scope of the tool, but would be a great area to ideate around for future work to provide a more comprehensive solution to evacuation management.
 
 ### Redundancy
 
-From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
+From our conversations withFrom Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
 
 ## Data
 
@@ -127,4 +109,4 @@ From Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 c
 
 ## Thank you
 
-We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes Labs team, Scott Westrope, David Shew, Nic Elmquist, and all of the other hackathon teams!
+We would like to thank the following people for their help in the creation of this project: Derek Fong, Rebecca Miller, Stace Maples, Caitlin Kontgis and the Descartes Labs team, Megan Danielson and the Mapbox team, Scott Westrope, David Shew, Nic Elmquist, and all of the other hackathon teams!
