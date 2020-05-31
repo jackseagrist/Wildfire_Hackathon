@@ -46,7 +46,7 @@ We have developed a static prototype for the hackathon, which can be found at th
 
 [Prototype](map.html)
 
-We envision users being able to access the tool via a web browser during a fire event. Users will be able to see the predicted perimeters and accompanying evacuation outputs in six hour increments. The data will be updated every six hours during the life of the fire event, described in the workflow below. Users will be able to use the information regarding predicted perimeter, traffic, and key locations to inform their evacuation response as the fire progresses.
+We envision users being able to access the tool via a web browser during a fire event. Users will be able to see the predicted perimeters and accompanying evacuation outputs. The data will be updated every six hours during the life of the fire event, described in the workflow below. Users will be able to use the information regarding predicted perimeter, traffic, and key locations to inform their evacuation response as the fire progresses.
 
 <img src="fire_evacuation_workflow.PNG" alt="hi" class="inline"/>
 
