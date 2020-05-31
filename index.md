@@ -85,6 +85,8 @@ A key aspect to esnure that our future tool is successful is redundancy for info
 
 2. FlamMap 6 - Desktop application that is used to simulate fire behavior. Includes FARSITE (Finney 1998, 2004) and FlamMap BASIC (Finney 2006), Minimum Travel Time (MTT, Finney 2002, 2006), Treatment Optimization Model (Finney 2001, 2006, 2007), and Conditional Burn Probability (Finney 2005, 2006).
 
+3. QGIS - Open Source Geographic Information System used to process geospatial data.
+
 ## References
 
 [1] California Department of Insurance 2019, 'Wildfire Insurance Losses from November 2018 blazes top $12 billion', News 2019 Press Release.
