@@ -42,12 +42,16 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
 
 ## Prototype
 
-Describe what we envision the user experience to be, ending with the link to the prototype.
+We have developed a static prototype for the hackathon, which can be found at the following link:
 
 [a relative link](tracker_start.md)
 [a relative link](map.html)
 [a relative link](map3.html)
 [Prototype](/template/index2.html)
+
+We envision the user experienceDescribe what we envision the user experience to be, ending with the link to the prototype.
+
+Picture of workflow
 
 ## Future Work
 
