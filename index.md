@@ -51,7 +51,7 @@ We have developed a static prototype for the hackathon, which can be found at th
 
 We envision the user experienceDescribe what we envision the user experience to be, ending with the link to the prototype.
 
-Picture of workflow
+<img src="fire_evacuation_workflow.PNG" alt="hi" class="inline"/>
 
 ## Future Work
 
