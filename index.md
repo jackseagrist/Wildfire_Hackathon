@@ -44,12 +44,9 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
 
 We have developed a static prototype for the hackathon, which can be found at the following link:
 
-[a relative link](tracker_start.md)
-[a relative link](map.html)
-[a relative link](map3.html)
-[Prototype](/template/index2.html)
+[Prototype](map.html)
 
-We envision the user experienceDescribe what we envision the user experience to be, ending with the link to the prototype.
+We envision users being able to access the tool via a web browser during a fire event. Users will be able to see the predicted perimeters and accompanying evacuation outputs in six hour increments. The data will be updated every six hours during the life of the fire event, described in the workflow below. Users will be able to use the information regarding predicted perimeter, traffic, and key locations to inform their evacuation response as the fire progresses.
 
 <img src="fire_evacuation_workflow.PNG" alt="hi" class="inline"/>
 
