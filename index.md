@@ -71,7 +71,7 @@ Our current focus of the tool has been to help fire and sheriff's departments wi
 
 ### Redundancy
 
-From our conversations with Scott Westrope - Redundancy. Example is the Tubbs fire where they lost 72 cell towers in 4 hours. Thinking about actual use of the system, it would be good to have it be redundant and still work if towers go down, or if the users are out in the middle of nowhere with no/limited signal (have some type of feature where you can download model based on current/future conditions onto phone and operate that way)
+A key aspect to esnure that our future tool is successful is redundancy for information relay, esnuring all necessary up to date information is effectively available for firefighters.  Many wildfires destroy key infrastructure such as communication towers or occur in remote locations with limited access to communication resources.  Disseminating our tool during emergency situations would require redunant modes of communication to account for these potential problems.  Some possible solutions are having our tool downloaded to mobile phones along with current and future conditions or taking advantage of closed firefighter communication systems such as radio.   
 
 ## Data
 
