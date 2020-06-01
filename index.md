@@ -55,11 +55,7 @@ The following sections describe the work needed to take this project from a conc
 
 ### Model
 
-Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for existing models and tools that we could use to implement in our prototype, deciding on FlamMap. Currently we generate outputs from FlamMap using the windows software on our personal computers. If this product were to move forward, we would need to develop a way to host the model on a server such that users could run computations from their web browser.
-
-### Automation
-
-As described above, our current prototype is a static wireframe of the potential tool. To create an operational tool, we would need to develop the infrastructure between the input data, model, and final output layers. This would allow us to take our proof of concept from a static wireframe to a usable web based tool.
+Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for existing models and tools that we could use to implement in our prototype, deciding on FlamMap. Currently we generate outputs from FlamMap using the windows software on our personal computers. Moving forward, we would need to develop a way to host the model on a server such that users could run computations from their web browser.
 
 ### Licensing
 
