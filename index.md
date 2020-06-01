@@ -9,7 +9,7 @@ Wildfires pose a significant risk to human life and infrastructure and have mass
 
 One vital aspect of fire loss prevention is evacuation procedures, in particular how fire and police authorities decide and implement effective yet necessary evacuations in the face of imminent danger.  Aggressive fires, jammed roads, and panicked evacuees can complicate well thought out evacuation procedures potentially having fatal results.
 
-Even when a town has preprepared evacuation zone, such as in Paradise California, dissemination of information and response in a time sensitive situation can still be extremely difficult (4). Officials attempted to alert the public through the national Integrated Public Alert and Warning System (IPAWS) during the Camp fire but encountered technical difficulties, highlighting the need for improved communication solutions during disaster events (5).
+Even when a town has a preprepared evacuation plan, such as in Paradise California, dissemination of information and response in a time sensitive situation can still be extremely difficult (4). Officials attempted to alert the public through the national Integrated Public Alert and Warning System (IPAWS) during the Camp fire but encountered technical difficulties, highlighting the need for improved communication solutions during disaster events (5).
 
 In addition, many mid size and small fire departments still rely on experience and non digital tools for evacuation. With the increasing availability of open source data and technology, there is a real potential to create tools that can make the first responders' decision making process easier during disasters.
 
