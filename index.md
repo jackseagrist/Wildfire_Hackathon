@@ -55,15 +55,15 @@ The following sections describe the work needed to take this project from a conc
 
 ### Model
 
-Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for exisiting models and tools that we could use to implement in our prototype, deciding on FlamMap. Currently we generate outputs from FlamMap using the windows software on our personal computers. If this product were to move forward, we would need to develop a way to host the model on a server such that users could run computations from their web browser.
+Our initial approach was to use machine learning techniques to develop a model which could predict the fire spread for a given period of time based on open source satellite imagery. However, after initial development we realized due to the complex nature of fire behavior we did not have access to enough data or data with the temporal and spatial resolution required to make an effective model. We switched our approach and began to search for existing models and tools that we could use to implement in our prototype, deciding on FlamMap. Currently we generate outputs from FlamMap using the windows software on our personal computers. If this product were to move forward, we would need to develop a way to host the model on a server such that users could run computations from their web browser.
 
 ### Automation
 
-As described above, our current prototype is a static wireframe of the potential tool. To create an operational tool, we would need to develop the infrastructure between the input data, model, and final output layers. This would allow us to take our proof of concept from a static wireframe to a useable web based tool.
+As described above, our current prototype is a static wireframe of the potential tool. To create an operational tool, we would need to develop the infrastructure between the input data, model, and final output layers. This would allow us to take our proof of concept from a static wireframe to a usable web based tool.
 
 ### Licensing
 
-Part of the goal of our project is to use as much open source information and software as possible to make the product easily accessible to deparments with limited resources. Our current prototype is based on the ESRI software platform, which requires licenses. If we were to continue to move forward with development, we would want to investigate what the current level of access to ESRI software is at the medium to small size departments. In addition, we would continue to look at alternative platforms such as Mapbox for developing the tool.
+Part of the goal of our project is to use as much open source information and software as possible to make the product easily accessible to departments with limited resources. Our current prototype is based on the ESRI software platform, which requires licenses. If we were to continue to move forward with development, we would want to investigate what the current level of access to ESRI software is at the medium to small size departments. In addition, we would continue to look at alternative platforms such as Mapbox for developing the tool.
 
 ### Dissemination to the Public
 
@@ -71,7 +71,7 @@ Our current focus of our tool has been to help fire and sheriff's departments wi
 
 ### Redundancy
 
-A key aspect to esnure that our future tool is successful is redundancy for information relay, ensuring all necessary up to date information is effectively available for firefighters and.  Many wildfires destroy key infrastructure such as communication towers or occur in remote locations with limited access to communication resources.  Disseminating our tool during emergency situations would require redunant modes of communication to account for these potential problems.  Some possible solutions are having our tool downloadable to firefighter mobile devices with current and future conditions or taking advantage of closed firefighter communication systems such as radio.   
+A key aspect to ensure that our future tool is successful is redundancy for information relay, ensuring all necessary up to date information is effectively available for firefighters and.  Many wildfires destroy key infrastructure such as communication towers or occur in remote locations with limited access to communication resources.  Disseminating our tool during emergency situations would require redundant modes of communication to account for these potential problems.  Some possible solutions are having our tool downloadable to firefighter mobile devices with current and future conditions or taking advantage of closed firefighter communication systems such as radio.   
 
 ## Data
 
