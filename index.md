@@ -21,7 +21,7 @@ Creating an interactive, data based, live platform has several challenges, espec
 
 ## Project Scope
 
-The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential tool. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had with stakeholders, there are six key components that we've included in the prototype which are described in the bullets and image below.
+The scope of our project for this hackathon was to gather stakeholder feedback and create a proof of concept for a potential tool. We met with various fire department officials across California as well as industry mentors to identify the critical features that would provide the most benefit in evacuation scenarios. Based on the discussions we've had with stakeholders, there are six key components that we've included in the prototype which are described below.
 
 1. **Basemap**: The base layer on which all of our data is added. All of the information generated from the fire prediction models and subsequent evacuation level estimates will be added on top of this layer. We investigated using both Mapbox and ArcGIS Webmaps and ultimately went with ArcGIS Webmaps for this project for its ease of use and additional data layers available.
 
@@ -35,11 +35,11 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
       
 4. **Traffic Information**: The LIFE tool will provide the latest traffic information for the area. Having the current traffic data for an area is crucial for officials to effectively respond to a disaster situation. Knowing the traffic flow out of a city jurisdiction helps with evacuating citizens, but it can also be used to identify key access points for delivering resources to fight the fire.
 
+<img src="fire_evacuation_description.jpeg" alt="hi" class="inline"/>
+
 5. **Key Infrastructure**: The LIFE tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
 
 6. **Adding Defended Space**: The LIFE tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
-
-<img src="fire_evacuation_description.jpeg" alt="hi" class="inline"/>
 
 ## Prototype
 
