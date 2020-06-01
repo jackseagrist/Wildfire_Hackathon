@@ -3,7 +3,7 @@ Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
  
 ## Problem Statement
 
-Wildfires pose a significant risk to human life and infrastrucutre and have a massive associated economic costs: Insurance claims alone topped $12 billion in 2018 for California (1 & 2).  Semi-arid regions, like California, naturally face wildfires seasonally but because climate and weather directly influence wildfire risks, but global warming is expected to further exacerbate fire damage towards natural and urban ecosystems (3).  During 2015-2020, several unprecedented fires have occured in varying regions and ecosystems of California, stretching exsisting support thin and highlighting the need for new ideas and tools. 
+Wildfires pose a significant risk to human life and infrastructure and have massive associated economic costs: Insurance claims alone topped $12 billion in 2018 for California (1 & 2).  Semi-arid regions, like California, naturally face wildfires seasonally but because climate and weather directly influence wildfire risks, but global warming is expected to further exacerbate fire damage towards natural and urban ecosystems (3).  During 2015-2020, several unprecedented fires have occured in varying regions and ecosystems of California, stretching existing support thin and highlighting the need for new ideas and tools. 
 
 ### Motivation
 
@@ -11,13 +11,13 @@ One vital aspect of fire loss prevention is evacuation procedures, in particular
 
 Even when a town has preprepared evacuation zone, such as in Paradise California, dissemination of information and response in a time sensitive situation can still be extremely difficult (4). Officials attempted to alert the public through the national Integrated Public Alert and Warning System (IPAWS) during the Camp fire but encountered technical difficulties, highlighting the need for improved communication solutions during disaster events (5).
 
-In addition, many mid size and small fire departments still rely on experience and non digital tools for evacuation. With the increasing availability of open source data and techonology, there is a real potential to create tools that can make the first responders' decision making process easier during disasters.
+In addition, many mid size and small fire departments still rely on experience and non digital tools for evacuation. With the increasing availability of open source data and technology, there is a real potential to create tools that can make the first responders' decision making process easier during disasters.
 
 Our project aims to create an easy to use, government facing, data based tool that assists fire departments in real time evacuation scenarios.  Our tool utilizes live traffic and critical facilities data to provide a blend of need to know data to decision makers in high stake situations.  High human and economic loss fires such as the Camp Fire in Paradise serve as a motivation to help provide information for safe evacuation routes or areas to shelter to minimize wildfire loss. 
 
 ### Challenges
 
-Creating an interactive, data based, live platform has several challenges, ecspecially surrounding availability of useful data and its timely implementation.  However, clever integration of online softwares allows a variety of critical variables to be available simultaneously while constantly updating.  Data and technological approaches that fight natural disasters are still nascent but are rapidly evolving, providing a promising future for our tool.  In addition to technological challenges there are social and financial barriers. Evacuations must strike a balance such that unnesecary evacuations don't fatigue people and deter their faith in evacuation orders.  Also, many fire agencies have tight budgets and may not be able to afford useful model predictions or live aerial information that larger agencies may be privy to.  Our tool strives to address each unique challenge in a manner that allows it to be accessible and beneficial for smaller agencies on the front lines.  
+Creating an interactive, data based, live platform has several challenges, especially surrounding availability of useful data and its timely implementation.  However, clever integration of online softwares allows a variety of critical variables to be available simultaneously while constantly updating.  Data and technological approaches that fight natural disasters are still nascent but are rapidly evolving, providing a promising future for our tool.  In addition to technological challenges there are social and financial barriers. Evacuations must strike a balance such that unnecessary evacuations don't fatigue people and deter their faith in evacuation orders.  Also, many fire agencies have tight budgets and may not be able to afford useful model predictions or live aerial information that larger agencies may be privy to.  Our tool strives to address each unique challenge in a manner that allows it to be accessible and beneficial for smaller agencies on the front lines.  
 
 ## Project Scope
 
@@ -27,7 +27,7 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
 
 2. **Fire Perimeter Prediction**: Our product will provide an estimate for the fire perimeter over a specified duration of time, given the current input conditions. We used FlamMap 6, which incorporates numerous fire behavior models, such as Rothermel's surface spread model, and allows users to generate predicted fire perimeters given current and recent land, weather, fuel, and time inputs.
 
-3. **Evacuation Overlay**: Following the California guidelines, our tool will provide estimates for the evacuation level in the areas surrounding the predicted fire perimeter. We understand that enforcing these different orders are up to the discrection of the officials in the city and therefore these layers simply serve as a reference for the decision makers. The California evacuation levels are:
+3. **Evacuation Overlay**: Following the California guidelines, our tool will provide estimates for the evacuation level in the areas surrounding the predicted fire perimeter. We understand that enforcing these different orders are up to the discretion of the officials in the city and therefore these layers simply serve as a reference for the decision makers. The California evacuation levels are:
 
       •Evacuation Order: Immediate threat to life. This is a lawful order to leave now. The area is lawfully closed to public access.
       
@@ -37,7 +37,7 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
 
 5. **Key Infrastructure**: Our tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
 
-6. **Addding Defended Space**: Our tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
+6. **Adding Defended Space**: Our tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
 
 ## Prototype
 
