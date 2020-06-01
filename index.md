@@ -35,11 +35,11 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
       
 4. **Traffic Information**: The LIFE tool will provide the latest traffic information for the area. Having the current traffic data for an area is crucial for officials to effectively respond to a disaster situation. Knowing the traffic flow out of a city jurisdiction helps with evacuating citizens, but it can also be used to identify key access points for delivering resources to fight the fire.
 
-<img src="fire_evacuation_description.jpeg" alt="hi" class="inline"/>
-
 5. **Key Infrastructure**: The LIFE tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
 
 6. **Adding Defended Space**: The LIFE tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
+
+<img src="fire_evacuation_description.jpeg" alt="hi" class="inline"/>
 
 ## Prototype
 
