@@ -75,7 +75,7 @@ A key aspect to ensure that our future tool is successful is redundancy for info
 
 1. National Interagency Fire Center (NIFC) FTP server(6) - GIS data generated from Incident teams including fire points, fire perimeter, and fire polygons.
 
-2. Environmental Systems Research Institute (ESRI) data layers (7) - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, and Traffic.
+2. Environmental Systems Research Institute (ESRI) data layers (7) - ESRI generates data layers which are accessible via their webmaps. Our project included layers for Nursing Homes, Hospitals, School location, Census Tract, and Traffic.
 
 ## Tools
 
