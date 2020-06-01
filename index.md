@@ -59,15 +59,15 @@ Our initial approach was to use machine learning techniques to develop a model w
 
 ### Licensing
 
-Part of the goal of our project is to use as much open source information and software as possible to make the product easily accessible to departments with limited resources. Our current prototype is based on the ESRI software platform, which requires licenses. If we were to continue to move forward with development, we would want to investigate what the current level of access to ESRI software is at the medium to small size departments. In addition, we would continue to look at alternative platforms such as Mapbox for developing the tool.
+One of the goal of our project was to use as much open source information and software as possible to make the product easily accessible to departments with limited resources. Our current prototype is based on the ESRI software platform, which requires licenses. If we were to continue to move forward with development, we would want to investigate what the current level of access to ESRI software is among the medium to small size fire and sheriff's departments. In addition, we would continue to look at alternative platforms such as Mapbox for developing the tool.
 
 ### Dissemination to the Public
 
-Our current focus of our tool has been to help fire and sheriff's departments with their evacuation management. However, as mentioned earlier a key problem also lies with getting information to the public. This is outside the current scope of the tool, but would be a great area to ideate around for future work to provide a more comprehensive solution to evacuation management.
+Our current focus of our tool has been to help fire and sheriff's departments with their evacuation management. However, as mentioned earlier a key problem also lies in getting information to the public. This is outside the current scope of the tool, but would be a great area to ideate around for future work to provide a more comprehensive solution to evacuation management.
 
 ### Redundancy
 
-A key aspect to ensure that our future tool is successful is redundancy for information relay, ensuring all necessary up to date information is effectively available for firefighters and.  Many wildfires destroy key infrastructure such as communication towers or occur in remote locations with limited access to communication resources.  Disseminating our tool during emergency situations would require redundant modes of communication to account for these potential problems.  Some possible solutions are having our tool downloadable to firefighter mobile devices with current and future conditions or taking advantage of closed firefighter communication systems such as radio.   
+A key aspect to ensure that our future tool is successful is redundancy for information relay, ensuring all necessary up to date information is effectively available for firefighters. Many wildfires destroy key infrastructure such as communication towers or occur in remote locations with limited access to communication resources. Disseminating our tool during emergency situations would require redundant modes of communication to account for these potential problems. Some possible solutions are having our tool downloadable to firefighter mobile devices with current and future conditions or taking advantage of closed firefighter communication systems such as radio.   
 
 ## Data
 
