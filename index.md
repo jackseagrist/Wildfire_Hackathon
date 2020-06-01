@@ -3,7 +3,7 @@ Project by: Jack Seagrist, Yash Gaur, Hunter Johnson
  
 ## Problem Statement
 
-Wildfires pose a significant risk to human life and infrastructure and have massive associated economic costs: Insurance claims alone topped $12 billion in 2018 for California (1 & 2).  Semi-arid regions, like California, naturally face wildfires seasonally but because climate and weather directly influence wildfire risks, but global warming is expected to further exacerbate fire damage towards natural and urban ecosystems (3).  During 2015-2020, several unprecedented fires have occured in varying regions and ecosystems of California, stretching existing support thin and highlighting the need for new ideas and tools. 
+Wildfires pose a significant risk to human life and infrastructure and have massive associated economic costs: Insurance claims alone topped $12 billion in 2018 for California (1 & 2).  Semi-arid regions, like California, naturally face wildfires but global warming is expected to exacerbate future wildfires, increasing associated risks and challenging traditional fire fighting methods (3).  During 2015-2020, several unprecedented fires occured in varying regions and ecosystems in California, stretching existing support thin and highlighting the need for new wildfire fighting and evacuation ideas and tools. 
 
 ### Motivation
 
@@ -13,11 +13,11 @@ Even when a town has preprepared evacuation zone, such as in Paradise California
 
 In addition, many mid size and small fire departments still rely on experience and non digital tools for evacuation. With the increasing availability of open source data and technology, there is a real potential to create tools that can make the first responders' decision making process easier during disasters.
 
-Our project aims to create an easy to use, government facing, data based tool that assists fire departments in real time evacuation scenarios.  Our tool utilizes live traffic and critical facilities data to provide a blend of need to know data to decision makers in high stake situations.  High human and economic loss fires such as the Camp Fire in Paradise serve as a motivation to help provide information for safe evacuation routes or areas to shelter to minimize wildfire loss. 
+The LIFE tool aims to create an easy to use, government facing, data based asset that assists fire departments in real time evacuation scenarios.  Our tool utilizes live traffic and critical facilities data to provide a blend of need to know data to decision makers in high stake situations.  High human and economic loss fires such as the Camp Fire serve as a motivation to help provide information for safe evacuation routes or areas to shelter to minimize wildfire losses. 
 
 ### Challenges
 
-Creating an interactive, data based, live platform has several challenges, especially surrounding availability of useful data and its timely implementation.  However, clever integration of online softwares allows a variety of critical variables to be available simultaneously while constantly updating.  Data and technological approaches that fight natural disasters are still nascent but are rapidly evolving, providing a promising future for our tool.  In addition to technological challenges there are social and financial barriers. Evacuations must strike a balance such that unnecessary evacuations don't fatigue people and deter their faith in evacuation orders.  Also, many fire agencies have tight budgets and may not be able to afford useful model predictions or live aerial information that larger agencies may be privy to.  Our tool strives to address each unique challenge in a manner that allows it to be accessible and beneficial for smaller agencies on the front lines.  
+Creating an interactive, data based, live platform has several challenges, especially surrounding availability of useful data and its timely implementation.  However, clever integration of online softwares allows a variety of critical variables to be available simultaneously while constantly updating.  Since wildfire fighting has traditionally relied upon physical maps and personal experience, data and technological approaches are still nascent, but are rapidly evolving providing a promising future for our tool.  In addition to technological challenges there are social and financial barriers. Evacuations must strike a balance such that unnecessary evacuations don't fatigue people and deter their faith in evacuation orders.  Also, many fire agencies have tight budgets and may not be able to afford useful model predictions or live aerial information that larger agencies may be privy to.  The LIFE tool strives to address each unique challenge in a manner that allows it to be accessible and beneficial for all agencies during unfamiliar disaster situations.  
 
 ## Project Scope
 
@@ -33,11 +33,11 @@ The scope of our project for this hackathon was to gather stakeholder feedback a
       
       •Evacuation Warning: Potential threat to life and/or property. Those who require additional time to evacuate, and those with pets and livestock should leave now. 
       
-4. **Traffic Information**: Our tool will provide the latest traffic information for the area. Having the current traffic data for an area is crucial for officials to effectively respond to a disaster situation. Knowing the traffic flow out of a city jurisdiction helps with evacuating citizens, but it can also be used to identify key access points for delivering resources to fight the fire.
+4. **Traffic Information**: The LIFE tool will provide the latest traffic information for the area. Having the current traffic data for an area is crucial for officials to effectively respond to a disaster situation. Knowing the traffic flow out of a city jurisdiction helps with evacuating citizens, but it can also be used to identify key access points for delivering resources to fight the fire.
 
-5. **Key Infrastructure**: Our tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
+5. **Key Infrastructure**: The LIFE tool will provide information on critical infrastructure that is prone to higher evacuation time. Through our talks with officials, we've identified hospitals, nursing homes, and schools as the areas that require above average evacuation time.
 
-6. **Adding Defended Space**: Our tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
+6. **Adding Defended Space**: The LIFE tool will allow officials to mark defensible space in the event that complete evacuation of all citizens is not feasible.
 
 ## Prototype
 
@@ -45,7 +45,7 @@ We have developed a static prototype for the hackathon, which can be found at th
 
 [Prototype](map4.html)
 
-We envision users being able to access the tool via a web browser during a fire event. Users will be able to see the predicted perimeters and accompanying evacuation outputs. The data will be updated every six hours during the life of the fire event, described in the workflow below. Users will be able to use the information regarding predicted perimeter, traffic, and key locations to inform their evacuation response as the fire progresses.
+We envision users being able to access the LIFE tool via a web browser during a wildfire event. Users will be able to see the predicted perimeters and accompanying evacuation outputs. The data will be updated every six hours during the life of the wildfire event, described in the workflow below. Users will be able to use the information regarding predicted perimeter, traffic, and key locations to inform their evacuation response as the fire progresses.
 
 <img src="fire_evacuation_workflow.PNG" alt="hi" class="inline"/>
 
@@ -93,7 +93,7 @@ A key aspect to ensure that our future tool is successful is redundancy for info
 
 [2] Kousky et al, 2018, 'Wildfire Costs in California: The Role of Electric Utilities', Wharton Risk Management and Decision Process Center.
 
-[3] Thomas et al. 2017, 'The Costs and Losses of Wildfires', National Institute of Standards and Technology.
+[3] Keeley & Syphard, 2016, 'Climate Change and Future Fire Regimes: Examples From California', Geosciences 6(3), 37.
 
 [4] Paradise Evacuation Zones(https://www.townofparadise.com/index.php/17-news-events/248-evacuation-zones).
 
